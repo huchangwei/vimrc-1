@@ -14,7 +14,7 @@ die() {
 [ -e "~/.vim" ] && die "~/.vim already exists."
 [ -e "~/.vimrc" ] && die "~/.vimrc already exists."
 
-git clone git@github.com:huchangwei/vimrc-1.git "$VIMHOME" 
+git clone https://github.com/huchangwei/vimrc-1.git "$VIMHOME" 
 cd "$VIMHOME"
 git submodule update --init
 
